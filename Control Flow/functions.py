@@ -1,8 +1,12 @@
 def calculate_fib(n):
     a, b = 0, 1
+    l = []
     while a < n:
-        print(a, end=' ')
+        l.append(a)
         a, b = b, a + b
+    return l
 
 
-calculate_fib(int(input('Fibonacci series below ? ')))
+a = calculate_fib(int(input('Fibonacci series below ? ')))
+print(a)
+print(len(a))
