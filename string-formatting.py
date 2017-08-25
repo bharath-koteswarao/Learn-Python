@@ -17,3 +17,7 @@ patt.format(10)
 b = patt.format(10).zfill(6)
 
 print(b)
+
+# String formatting can also be used like c style formatting
+
+print("Hello my name is {} ".format("bk"))
