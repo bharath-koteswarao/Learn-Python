@@ -28,3 +28,11 @@ f = open("automatic file.txt", 'r')
 
 for line in f:
     print(line)
+
+"""Extra methods of file handling :"""
+
+# f.tell() returns the position of the caret in file
+
+# f.seek() accepts two arguments one is the starting position and second is number of lines to be
+
+# skipped from starting index
